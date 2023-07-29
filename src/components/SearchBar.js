@@ -55,8 +55,7 @@ const SearchBar = () => {
   if (!suggestions) return null;
 
   return (
-    <div className="lg:col-span-4 md:col-start-3 md:col-span-2 justify-center justify-between items-center">
-      <div className="">
+    <div className="lg:1/2 md:1/2 ">
       <form
         className="font-medium mx-2 p-1"
         onSubmit={(e) => {
@@ -75,7 +74,7 @@ const SearchBar = () => {
 
           <Link to={`/search?query=${searchQuery}`}>
             <div className="h-[38px] py-2 px-5 border border-zinc-700 rounded-e-full hover:bg-zinc-700 shadow-lg bg-gray-100 dark:bg-zinc-800">
-            <FaSearch className="mt-[9%]"/>
+            <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#f2f2f2" stroke-width="0.9359999999999999" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
             </div>
           </Link>
           <div className="px-2">
@@ -98,7 +97,6 @@ const SearchBar = () => {
           </div>
         )}
       </form>
-      </div>
   </div>
   );
 };

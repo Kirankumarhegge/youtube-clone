@@ -1,6 +1,3 @@
-//const GOOGLE_API_KEY = "AIzaSyAB2Tp4B26-K28nsWmdX9UwZkX-n2wpEt8";
-//AIzaSyDWPq_w0_uVejy_MPuXReLG7VXXY4NuZpM
-
 export const baseUrl = "https://youtube-v3-alternative.p.rapidapi.com";
 
 export const YOUTUBE_SEARCH_API =

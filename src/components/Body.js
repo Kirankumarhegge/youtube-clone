@@ -6,10 +6,10 @@ import Head from "./Head";
 const Body = () => {
   return (
     <>
-      <div className="bg-zinc-900 dark:text-white">
+      <div className="bg-neutral-950 dark:text-white">
         <Head />
         <div className="grid grid-flow-col bg-neutral-950">
-          <div className="sticky top-14 z-30 scroll-smooth">
+          <div className="sticky top-14 z-10">
             <Sidebar />
           </div>
           <Outlet />
