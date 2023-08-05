@@ -7,7 +7,7 @@ const Sidebar = () => {
   if (!isMenuOpen) return null;
   return (
     <>
-      <div className="sticky top-[4.5rem] z-20 px-8 w-60 h-[90vh] overflow-y-scroll bg-neutral-950">
+      <div className="sticky top-[4.5rem] z-20 px-8 w-60 h-[90vh] overflow-y-scroll bg-neutral-950 transition-all ease-in duration-500">
         <ul className="mb-2">
           <Link to={"/"}>
             <li className="py-3 font-bold cursor-pointer flex flex-wrap">

@@ -1,23 +1,27 @@
 const Shimmer = () => {
   return (
     <>
-      <div className="bg-neutral-950 animate-pulse flex flex-wrap justify-center">
+      <div className="bg-neutral-950 flex flex-wrap justify-center">
         {Array(40)
           .fill("")
           .map((e, index) => {
             return (
               <div
-                className="w-80 h-64 p-2 m-7 bg-white-100 rounded flex justify-between "
+                className="w-[23rem] h-74 p-2 m-2 bg-white-100 animate-pulse rounded flex justify-between "
                 key={index}
               >
                 <div className="flex-1 space-y-4 py-4 ">
-                  <div className="h-24 bg-slate-200 rounded"></div>
-                  <div className="h-8 bg-slate-200 rounded"></div>
-                  <div className="space-y-3">
-                    <div className="grid grid-cols-3 gap-8">
-                      <div className="h-1 bg-slate-200 rounded col-span-1"></div>
+                  <div className="space-y-2">
+                    <div className="grid grid-cols-8 gap-2">
+                      <div className="h-[13rem] col-span-8 bg-slate-200 rounded-lg"></div>
+                      <div className="h-8 col-span-1 mr-2 bg-slate-200 rounded-full"></div>
+                      <div className="h-8 col-span-7 bg-slate-200 rounded"></div>
+                    </div>
+                  </div>  
+                  <div className="space-y-2">
+                    <div className="grid grid-cols-3 gap-4">
                       <div className="h-2 bg-slate-200 rounded col-span-1"></div>
-                      <div className="h-2 bg-slate-200 rounded col-span-1"></div>
+                      <div className="h-2 bg-slate-200 rounded col-span-2"></div>
                     </div>
                     <div className="h-2 bg-slate-200 rounded"></div>
                     <div className="grid grid-cols-3 gap-4">

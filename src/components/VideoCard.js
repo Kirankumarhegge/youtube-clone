@@ -9,7 +9,7 @@ const VideoCard = ({ info }) => {
   return (
     <div>
       <div className="relative">
-        <img className="rounded-lg w-full" src={info.thumbnail[2].url} alt="thumbnail" />
+        <img className="rounded-lg h-74 w-full" src={info.thumbnail[2].url} alt="thumbnail" />
         <span className="absolute bottom-1 right-1 rounded-md py-[0.1rem] px-[0.3rem] bg-neutral-950 text-xs">{info.lengthText}</span>
       </div>
       <div className="flex w-[100%] items-start">

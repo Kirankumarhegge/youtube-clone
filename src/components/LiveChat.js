@@ -28,7 +28,7 @@ const LiveChat = () => {
     // eslint-disable-next-line
   }, []);
   return (
-    <div className="h-[600px] bg-neutral-950">
+    <div className="h-[650px] bg-neutral-950">
       <div className="w-full border  border-stone-700 rounded-t-lg">
         <h1 className="font-bold border-b-2 border-stone-700 p-2">Live Chat</h1>
         <div className="space-y-2 overflow-y-scroll p-2 flex flex-col-reverse h-[520px]">

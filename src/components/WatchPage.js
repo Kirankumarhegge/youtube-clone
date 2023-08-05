@@ -46,9 +46,9 @@ const WatchPage = () => {
     <div className="bg-neutral-950 h-auto">
       <div className="flex flex-col w-full pl-8 bg-neutral-950 ">
         <div className="flex">
-          <div className="pt-5 pl-5 start-0 w-[70%]">
+          <div className="pt-5 pl-[3rem] w-[65%]">
             <iframe
-              width="99%"
+              width="96%"
               height="550"
               src={
                 "https://www.youtube.com/embed/" +
@@ -61,12 +61,12 @@ const WatchPage = () => {
               allowFullScreen
             ></iframe>
           </div>
-          <div className="w-[30%] pl-4 pt-5 pr-7">
+          <div className="w-[35%] pt-5 pr-[6rem]">
             <LiveChat />
           </div>
         </div>
-        <div className="flex flex-row m-5 h-auto justify-between bg-neutral-950 ">
-          <div className="flex flex-col w-[70%] mt-[-3.5rem] bg-neutral-950 ">
+        <div className="flex flex-row mx-5 h-auto justify-between bg-neutral-950 pl-[2rem]">
+          <div className="flex flex-col w-[66%] mt-[-5.5rem] bg-neutral-950 ">
             <VideoInfo />
             <div className="flex flex-row h-auto w-[100%] justify-between bg-neutral-950">
               <div className="w-full bg-neutral-950 h-auto">

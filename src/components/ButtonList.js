@@ -14,9 +14,9 @@ const ButtonList = () => {
   };
 
   return (
-    <div className="sticky top-[4rem] z-10 grid grid-flow-col bg-neutral-950">
+    <div className="sticky px-4 z-10 grid grid-flow-col bg-neutral-950">
       <MdChevronLeft
-        className="hover:scale-150 my-auto opacity-50 "
+        className="hover:scale-150 my-auto opacity-50 transition ease-in-out duration-300"
         size={30}
         onClick={slideLeft}
         aria-hidden="true"
@@ -230,7 +230,7 @@ const ButtonList = () => {
         </Link>
       </div>  
       <MdChevronRight
-        className="hover:scale-150 my-auto opacity-50 "
+        className="hover:scale-150 my-auto ml-2 opacity-50 "
         size={30}
         onClick={slideRight}
         aria-hidden="true"

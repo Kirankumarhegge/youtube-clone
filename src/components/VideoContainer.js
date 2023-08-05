@@ -33,13 +33,15 @@ const reqParam = `${baseUrl + param}`
   // conditional rendering
 
 
+  
+
   if (!videos.length) {
     return <Shimmer />;
   }
 
   return (
     <div className="flex justify-center items-center pt-3 bg-neutral-950">
-      <div className="flex-1 max-w-6xl">
+      <div className="flex-1 max-w-7xl">
         <div className="grid p-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4" >
           {videos.map((video) => (
             <Link to={"/video?id=" + video.videoId}>
